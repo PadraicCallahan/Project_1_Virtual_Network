@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-(Project_1_Virtual_Network/README/Images/ELK_Diagram.png)  https://drive.google.com/file/d/1q6kl2KHmcOjOHiURIozY4N-1CBONGfP9/view?usp=sharing
+(Project_1_Virtual_Network/Images/ELK_Diagram.png)  https://drive.google.com/file/d/1q6kl2KHmcOjOHiURIozY4N-1CBONGfP9/view?usp=sharing
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -73,7 +73,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
- /Project_1_Virtual_Network/README/Images/Project1-ElkDocker.png
+ /Project_1_Virtual_Network/Images/Project1-ElkDocker.png
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
