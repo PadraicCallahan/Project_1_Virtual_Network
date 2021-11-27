@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-(Project_1_Virtual_Network/Images/ELK_Diagram.png)  https://drive.google.com/file/d/1q6kl2KHmcOjOHiURIozY4N-1CBONGfP9/view?usp=sharing
+(Project_1_Virtual_Network/README/Images/ELK_Diagram.png)  https://drive.google.com/file/d/1q6kl2KHmcOjOHiURIozY4N-1CBONGfP9/view?usp=sharing
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -22,7 +22,7 @@ This document contains the following details:
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly secure, in addition to restricting access to the network.
--  A jump box prevents the VMs from being exposed to the public, as well as opens only one port, as opposed to several ports to connect different virtual machines.
+-  A jump box prevents the VMS from being exposed to the public, as well as opens only one port, as opposed to several ports to connect different virtual machines.
 A load balancer has an off-loading function which defends against DDoS attacks by shifting attack traffic to a public cloud provider.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system logs.
@@ -34,6 +34,7 @@ The configuration details of each machine may be found below.
 
 | Name     | Function | IP Address   | Operating System  |
 |----------|----------|------------  |------------------ |
+| ELK      | Analysis |104.43.234.157| Linux Ubuntu 18.04|
 | Jump Box | Gateway  |52.175.253.103| Linux Ubuntu 18.04|
 | WEB1     |  VM      | 10.0.0.5     | Linux Ubuntu 18.04|
 | WEB2     |  VM      | 10.0.0.6     | Linux Ubuntu 18.04|
@@ -55,9 +56,10 @@ A summary of the access policies in place can be found in the table below.
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
 | Jump Box |     Yes             | xx.xxx.x.xxx (my IP) |
-| web1     |     No              |  10.0.0.4 (jumpbox)  |
-| web2     |     No              |  10.0.0.4 (jumpbox)  |
-| web3     |     No              |  10.0.0.4 (jumpbox)  |
+| web1     |     No              |  10.0.0.4  (jumpbox) |
+| web2     |     No              |  10.0.0.4  (jumpbox) |
+| web3     |     No              |  10.0.0.4  (jumpbox) |
+| ELK      |     No              |  10.0.0.4  (jumpbox) |
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
@@ -73,7 +75,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
- /Project_1_Virtual_Network/Images/Project1-ElkDocker.png
+ /Project_1_Virtual_Network/README/Images/Project1-ElkDocker.png
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -103,5 +105,4 @@ filebeat-playbook.yml copy it into /etc/ansible/roles
 The host file is to be updated to make ansible run the playbook on a specific machine. Specifiy the machines in the configuration file by their ip (10.0.0.5 10.0.0.6 10.0.0.7 for beats, 10.1.0.4 for ELK)
 
 - _Which URL do you navigate to in order to check that the ELK server is running?
-https://104.43.234.157:5601/app/kibana# Project_1_Virtual_Network
-First project repository.
+https://104.43.234.157:5601/app/kibana
