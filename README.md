@@ -38,7 +38,7 @@ The configuration details of each machine may be found below.
 | WEB1     |  VM      | 10.0.0.5     | Linux Ubuntu 18.04|
 | WEB2     |  VM      | 10.0.0.6     | Linux Ubuntu 18.04|
 | WEB3     |  VM      | 10.0.0.7     | Linux Ubuntu 18.04|
-| ELK      |diagnostic| 10.1.0.4     | Linux Ubuntu 18.04|
+| ELK      |Diagnostic| 10.1.0.4     | Linux Ubuntu 18.04|
 ### Access Policies
 
 The machines on the internal network are not exposed to the public Internet. 
