@@ -138,7 +138,7 @@ Please Navigate to http://104.43.234.157:5601/app/kibana to ensure the ELK serve
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
-   ### css- (Cascading Style Sheets) describe how HTML elements are displayed on the screen.
+- css- (Cascading Style Sheets) describe how HTML elements are displayed on the screen.
 
 - deb- (Debian Software Package file) Made of two TAR archives that make up executable files, documentation, and libraries.
 
