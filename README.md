@@ -133,10 +133,7 @@ Please Navigate to http://104.43.234.157:5601/app/kibana to ensure the ELK serve
 
 -  Of the traffic that's coming from that country, 12pm was the most active time.
 
--  All of the types of downloaded files over the last 7 days have been 
-   identified and are listed below:
-
------------------------------------------------------------------------------------------------------------------------------------------------
+  ### All of the types of downloaded files over the last 7 days have been identified and are listed below -----------------------------------------------------------------------------------------------------------------------------------------------
 
 - css- (Cascading Style Sheets) describe how HTML elements are displayed on the screen.
 
