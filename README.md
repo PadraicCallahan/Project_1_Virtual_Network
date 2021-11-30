@@ -46,7 +46,7 @@ The machines on the internal network are not exposed to the public Internet.
 Only the Jump Box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 -  xx.xxx.x.xxx (my ip)
 
-Machines within the network can only be accessed by _____.
+Machines within the network can only be accessed by
 - Jump Box 52.175.253.103 10.0.0.4
 
 
@@ -61,8 +61,7 @@ A summary of the access policies in place can be found in the table below.
 | ELK      |     No              |  10.1.0.4  (jumpbox) |
 ### Elk Configuration
 
-Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- The main adavantage of automating the configuration is you can easily roll it out to as many machines as you would like, very quickly.
+Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because the main adavantage of automating the configuration is you can easily roll it out to as many machines as you would like, very quickly.
 
 The playbook implements the following tasks:
 - Install docker.io
@@ -104,7 +103,7 @@ The host file is to be updated to make ansible run the playbook on a specific ma
 
 Please Navigate to http://104.43.234.157:5601/app/kibana to ensure the ELK server is running.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Kibana Investigation
 
@@ -114,20 +113,17 @@ Please Navigate to http://104.43.234.157:5601/app/kibana to ensure the ELK serve
 
 In the last 7 days, there were 223 unique users located in India.
 
-
 In the last 24 hours, of the visitors from China, 50% were using Mac OSX.
-
 
 In the last 2 days, 100%  of visitors received 404 errors. 8.333% recieved 503 errors.
 
-
 In the last 7 days, China produced the majority of the traffic on the website.
-
 
 Of the traffic that's coming from that country, 12pm was the most active time.
 
 All of the types of downloaded files over the last 7 days have been 
 identified and are listed below:
+
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
 css- (Cascading Style Sheets) describe how HTML elements are displayed on the screen.
@@ -159,6 +155,7 @@ AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.50 Safari/534.24
 The url that was accessed was https://elastic-elastic-elastic.org/people/type:astronauts/name:anthony-llewellyn/profile
 
 The visitors traffic originated from elastic-elastic-elastic.org
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 It appears the user obtained sensitive information on a number of american astronauts. In this example of a file they downloaded, there is a document which contained the profile of Anthony LLewellyn, an astronaut. If this kind of personal information is available to potential adversaries, it would mean a complete failure in national security, and violates compliance guidelines.  
