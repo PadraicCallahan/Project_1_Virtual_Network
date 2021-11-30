@@ -169,6 +169,7 @@ The url that was accessed was https://elastic-elastic-elastic.org/people/type:as
 The visitors traffic originated from elastic-elastic-elastic.org
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
+### Synopsis
 
 It appears the user obtained sensitive information on a number of american astronauts. In this example of a file they downloaded, there is a document which contained the profile of Anthony LLewellyn, an astronaut. If this kind of personal information is available to potential adversaries, it would mean a complete failure in national security, and violates compliance guidelines.  
 
