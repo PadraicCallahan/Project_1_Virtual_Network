@@ -151,7 +151,7 @@ Filter the data by this event.
 
 What is the timestamp for this event? 
 
-08:01
+Nov 23, 2021 @ 08:01:00.968
 
 What kind of file was downloaded? 
 
@@ -174,6 +174,10 @@ What is the source IP address of this activity?
 What are the geo coordinates of this activity?         
 
 { "lat": 39.58316583, "lon": -85.80481 }
+
+geo.dest	IN
+
+geo.src	IN
 
 What OS was the source machine running?            
 
