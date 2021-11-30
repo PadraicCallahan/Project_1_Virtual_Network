@@ -143,20 +143,29 @@ zip- archive file format supporting lossless data compression.
 
 --------------------------------------------------------------------------------------------------------------------
 
-Locate the time frame in the last 7 days with the most amount of bytes (activity).
-In your own words, is there anything that seems potentially strange about this activity?
+Locate the time frame in the last 7 days with the most amount of bytes (activity). Is there anything that seems potentially strange about this activity?
 
 They were all unique users originating from China and India.
 
 Filter the data by this event.
 
-What is the timestamp for this event? 08:01
-What kind of file was downloaded? _doc
-From what country did this activity originate? India
-What HTTP response codes were encountered by this visitor? 200
+What is the timestamp for this event? 
 
+08:01
 
-Switch to the Kibana Discover page to see more details about this activity.
+What kind of file was downloaded? 
+
+doc
+
+From what country did this activity originate? 
+
+India
+
+What HTTP response codes were encountered by this visitor? 
+
+200
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 What is the source IP address of this activity?        61.231.10.118
 What are the geo coordinates of this activity?         { "lat": 39.58316583, "lon": -85.80481 }
