@@ -130,10 +130,15 @@ Of the traffic that's coming from that country, what time of day had the highest
 - 12 p.m.
 
 A list all the types of downloaded files that have been identified for the last 7 days, along with a short description of each file type:
+
 css- (Cascading Style Sheets) describe how HTML elements are displayed on the screen.
-deb- (Debian Software Package file) Made of two TAR archives that make up executable files, documentation, and      libraries.
-gz- archive file compressed by standard GNU zip
+
+deb- (Debian Software Package file) Made of two TAR archives that make up executable files, documentation, and libraries.
+
+gz- archive file compressed by standard GNU zip.
+
 rpm- (Red Hat Package Manager) stores installation packages on Linux. Provides software distribution, installation, upgrade, and removal.
+
 zip- archive file format supporting lossless data compression.
 
 --------------------------------------------------------------------------------------------------------------------
