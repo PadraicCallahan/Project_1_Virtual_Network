@@ -26,13 +26,14 @@ This document contains the following details:
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
-Load balancing ensures that the application will be highly secure, in addition to restricting access to the network.
+-  Load balancing ensures that the application will be highly secure, in addition to restricting access to the network.
+   A load balancer has an off-loading function which defends against DDoS attacks by shifting attack traffic to a public cloud provider.
+
 -  A jump box prevents the VMS from being exposed to the public, as well as opens only one port, as opposed to several ports to connect different virtual machines.
-A load balancer has an off-loading function which defends against DDoS attacks by shifting attack traffic to a public cloud provider.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system logs.
-- Filebeat monitors Logfiles, collects log events, and forwards them to Elasticsearch or Logstash.
-- Metricbeat collects metric data from target servers, such as CPU, memory, and data related to services on the server. Also monitors other beats and the ELK stack.
+-  Filebeat monitors Logfiles, collects log events, and forwards them to Elasticsearch or Logstash.
+-  Metricbeat collects metric data from target servers, such as CPU, memory, and data related to services on the server. Also monitors other beats and the ELK stack.
 
 The configuration details of each machine may be found below.
 
@@ -52,7 +53,7 @@ Only the Jump Box machine can accept connections from the Internet. Access to th
 -  xx.xxx.x.xxx (my ip)
 
 Machines within the network can only be accessed by
-- Jump Box public ip: 52.175.253.103  private ip: 10.0.0.4
+-  Jump Box - public ip: 52.175.253.103  private ip: 10.0.0.4
 
 
 A summary of the access policies in place can be found in the table below.
@@ -66,7 +67,7 @@ A summary of the access policies in place can be found in the table below.
 | ELK      |     No              |  10.1.0.4  (jumpbox) |
 ### Elk Configuration
 
-Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because the main adavantage of automating the configuration is you can easily roll it out to as many machines as you would like, very quickly.
+Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because by automating the configuration, it is easily rolled out to as many machines as you would like, very quickly, and with no human error.
 
 The playbook implements the following tasks:
 - Install docker.io
