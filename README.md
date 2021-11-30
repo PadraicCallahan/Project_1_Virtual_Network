@@ -149,8 +149,9 @@ Please Navigate to http://104.43.234.157:5601/app/kibana to ensure the ELK serve
 
 --------------------------------------------------------------------------------------------------------------------
 
-## Upon inspection during maximum activity, I noticed that profiles were being downloaded that pertained to various astronauts. 
-### In one such instance the following information was found:
+### Upon inspection during maximum activity, I noticed that profiles were being downloaded that pertained to various astronauts. 
+
+#### In one such instance the following information was found:
 
 
 -  The timestamp for the event was November, 23 08:01
