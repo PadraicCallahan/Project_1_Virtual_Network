@@ -151,22 +151,23 @@ zip- archive file format supporting lossless data compression.
 --------------------------------------------------------------------------------------------------------------------
 
 Upon inspection during maximum activity, I noticed that profiles were being downloaded that pertained to various astronauts. 
+In one such instance the following information was found:
 
-The timestamp for the event was November, 23 08:01
+-  The timestamp for the event was November, 23 08:01
 
-An rpm file was downloaded from India. A 200 http response code was given to this visitor.
+-  An rpm file was downloaded from India. A 200 http response code was given to this visitor.
 
-The source IP address was 61.231.10.118
+-  The source IP address was 61.231.10.118
 
-The geo coordinates were  { "lat": 39.58316583, "lon": -85.80481 }
+-  The geo coordinates were  { "lat": 39.58316583, "lon": -85.80481 }
 
-The source machine was using an operating system consisting of  Mozilla/5.0 (X11; Linux i686) 
+-  The source machine was using an operating system consisting of  Mozilla/5.0 (X11; Linux i686) 
 
-AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.50 Safari/534.24
+   AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.50 Safari/534.24
 
-The url that was accessed was https://elastic-elastic-elastic.org/people/type:astronauts/name:anthony-llewellyn/profile
+-  The url that was accessed was https://elastic-elastic-elastic.org/people/type:astronauts/name:anthony-llewellyn/profile
 
-The visitors traffic originated from elastic-elastic-elastic.org
+-  The visitors traffic originated from elastic-elastic-elastic.org
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 ### Synopsis
