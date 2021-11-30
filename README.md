@@ -66,7 +66,7 @@ A summary of the access policies in place can be found in the table below.
 | web1     |     No              |  10.0.0.4  (jumpbox) |
 | web2     |     No              |  10.0.0.4  (jumpbox) |
 | web3     |     No              |  10.0.0.4  (jumpbox) |
-| ELK      |     No              |  10.1.0.4  (jumpbox) |
+| ELK      |     No              |  10.0.0.4  (jumpbox) |
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because by automating the configuration, it is easily rolled out to as many machines as you would like, very quickly, and with no human error.
