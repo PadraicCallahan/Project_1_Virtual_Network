@@ -53,7 +53,9 @@ Only the Jump Box machine can accept connections from the Internet. Access to th
 -  xx.xxx.x.xxx (my ip)
 
 Machines within the network can only be accessed by
--  Jump Box -      public ip: 52.175.253.103      private ip: 10.0.0.4
+-  Jump Box -      
+   -  public ip: 52.175.253.103      
+   -  private ip: 10.0.0.4
 
 
 A summary of the access policies in place can be found in the table below.
