@@ -104,4 +104,4 @@ filebeat-playbook.yml copy it into /etc/ansible/roles
 The host file is to be updated to make ansible run the playbook on a specific machine. Specifiy the machines in the configuration file by their ip (10.0.0.5 10.0.0.6 10.0.0.7 for beats, 10.1.0.4 for ELK)
 
 - _Which URL do you navigate to in order to check that the ELK server is running?
-https://104.43.234.157:5601/app/kibana
+http://104.43.234.157:5601/app/kibana
