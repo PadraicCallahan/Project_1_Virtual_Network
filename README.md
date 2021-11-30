@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-Project_1_Virtual_Network/Images/ELK_Diagram.png 
+Project_1_Virtual_Network/Images/Images/ELK_Diagram.png 
 
 https://drive.google.com/file/d/1q6kl2KHmcOjOHiURIozY4N-1CBONGfP9/view?usp=sharing
 
