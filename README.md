@@ -126,7 +126,9 @@ In the last 7 days, China produced the majority of the traffic on the website.
 
 Of the traffic that's coming from that country, 12pm was the most active time.
 
-A list all the types of downloaded files that have been identified for the last 7 days, along with a short description of each file type:
+All of the types of downloaded files over the last 7 days have been 
+identified and are listed below:
+-----------------------------------------------------------------------------------------------------------------------------------------------
 
 css- (Cascading Style Sheets) describe how HTML elements are displayed on the screen.
 
