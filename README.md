@@ -126,7 +126,7 @@ In the last 2 days, 100%  of visitors received 404 errors. 8.333% recieved 503 e
 In the last 7 days, China produced the majority of the traffic on the website.
 
 
-Of the traffic that's coming from that country, what time of day had the highest amount of activity?
+Of the traffic that's coming from that country, 
 - 12 p.m.
 
 A list all the types of downloaded files that have been identified for the last 7 days, along with a short description of each file type:
@@ -143,67 +143,5 @@ zip- archive file format supporting lossless data compression.
 
 --------------------------------------------------------------------------------------------------------------------
 
-Locate the time frame in the last 7 days with the most amount of bytes (activity). Is there anything that seems potentially strange about this activity?
-
-They were all unique users originating from China and India.
-
-Filter the data by this event.
-
-What is the timestamp for this event? 
-
-Nov 23, 2021 @ 08:01:00.968
-
-What kind of file was downloaded? 
-
-doc
-
-From what country did this activity originate? 
-
-India
-
-What HTTP response codes were encountered by this visitor? 
-
-200
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-What is the source IP address of this activity?        
-
-61.231.10.118
-
-What are the geo coordinates of this activity?         
-
-{ "lat": 39.58316583, "lon": -85.80481 }
-
-geo.dest	IN
-
-geo.src	IN
-
-What OS was the source machine running?            
-
-Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.50 Safari/534.24
-
-What is the full URL that was accessed? 	
-
-https://elastic-elastic-elastic.org/people/type:astronauts/name:anthony-llewellyn/profile
-
-From what website did the visitor's traffic originate?
-
-elastic-elastic-elastic.org
 
 
-What do you think the user was doing? 
-
-Trying to get user information.
-
-Was the file they downloaded malicious? If not, what is the file used for? 
-
-They accessed a profile of an astronaut.
-
-Is there anything that seems suspicious about this activity? 
-
-They could be trying to get the private information of astronauts.
-
-Is any of the traffic you inspected potentially outside of compliance guidlines? 
-
-If personal information is accessible by third parties, there would be privacy issues, as well as national security issues due to the personal information of government empoyees being compromised. 
