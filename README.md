@@ -123,35 +123,36 @@ Please Navigate to http://104.43.234.157:5601/app/kibana to ensure the ELK serve
 
 
 
-In the last 7 days, there were 223 unique users located in India.
+-  In the last 7 days, there were 223 unique users located in India.
 
-In the last 24 hours, of the visitors from China, 50% were using Mac OSX.
+-  In the last 24 hours, of the visitors from China, 50% were using Mac OSX.
 
-In the last 2 days, 100%  of visitors received 404 errors. 8.333% recieved 503 errors.
+-  In the last 2 days, 100%  of visitors received 404 errors. 8.333% recieved 503 errors.
 
-In the last 7 days, China produced the majority of the traffic on the website.
+-  In the last 7 days, China produced the majority of the traffic on the website.
 
-Of the traffic that's coming from that country, 12pm was the most active time.
+-  Of the traffic that's coming from that country, 12pm was the most active time.
 
-All of the types of downloaded files over the last 7 days have been 
-identified and are listed below:
+-  All of the types of downloaded files over the last 7 days have been 
+   identified and are listed below:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
-css- (Cascading Style Sheets) describe how HTML elements are displayed on the screen.
+   css- (Cascading Style Sheets) describe how HTML elements are displayed on the screen.
 
-deb- (Debian Software Package file) Made of two TAR archives that make up executable files, documentation, and libraries.
+   deb- (Debian Software Package file) Made of two TAR archives that make up executable files, documentation, and libraries.
 
-gz- archive file compressed by standard GNU zip.
+   gz- archive file compressed by standard GNU zip.
 
-rpm- (Red Hat Package Manager) stores installation packages on Linux. Provides software distribution, installation, upgrade, and removal.
+   rpm- (Red Hat Package Manager) stores installation packages on Linux. Provides software distribution, installation, upgrade, and removal.
 
-zip- archive file format supporting lossless data compression.
+   zip- archive file format supporting lossless data compression.
 
 --------------------------------------------------------------------------------------------------------------------
 
-Upon inspection during maximum activity, I noticed that profiles were being downloaded that pertained to various astronauts. 
+####Upon inspection during maximum activity, I noticed that profiles were being downloaded that pertained to various astronauts. 
 In one such instance the following information was found:
+
 
 -  The timestamp for the event was November, 23 08:01
 
