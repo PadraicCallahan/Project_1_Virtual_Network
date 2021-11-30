@@ -6,7 +6,7 @@ The files in this repository were used to configure the network depicted below
 
 ![image](https://user-images.githubusercontent.com/87440158/144123768-72498cda-c693-49f9-9661-79affc3d3ea2.png)
 
-Project_1_Virtual_Network/Images/Images/ELK_Diagram.png
+Project_1_Virtual_Network/Images/ELK_Diagram.png
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
