@@ -138,20 +138,20 @@ Please Navigate to http://104.43.234.157:5601/app/kibana to ensure the ELK serve
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
-   css- (Cascading Style Sheets) describe how HTML elements are displayed on the screen.
+   ## css- (Cascading Style Sheets) describe how HTML elements are displayed on the screen.
 
-   deb- (Debian Software Package file) Made of two TAR archives that make up executable files, documentation, and libraries.
+   ## deb- (Debian Software Package file) Made of two TAR archives that make up executable files, documentation, and libraries.
 
-   gz- archive file compressed by standard GNU zip.
+   ## gz- archive file compressed by standard GNU zip.
 
-   rpm- (Red Hat Package Manager) stores installation packages on Linux. Provides software distribution, installation, upgrade, and removal.
+   ## rpm- (Red Hat Package Manager) stores installation packages on Linux. Provides software distribution, installation, upgrade, and removal.
 
-   zip- archive file format supporting lossless data compression.
+   ## zip- archive file format supporting lossless data compression.
 
 --------------------------------------------------------------------------------------------------------------------
 
-#### Upon inspection during maximum activity, I noticed that profiles were being downloaded that pertained to various astronauts. 
-#### In one such instance the following information was found:
+### Upon inspection during maximum activity, I noticed that profiles were being downloaded that pertained to various astronauts. 
+### In one such instance the following information was found:
 
 
 -  The timestamp for the event was November, 23 08:01
