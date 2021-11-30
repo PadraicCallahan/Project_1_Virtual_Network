@@ -198,6 +198,8 @@ Trying to get user information.
 
 Was the file they downloaded malicious? If not, what is the file used for? 
 
+They accessed a profile of an astronaut.
+
 Is there anything that seems suspicious about this activity? 
 
 They could be trying to get the private information of astronauts.
