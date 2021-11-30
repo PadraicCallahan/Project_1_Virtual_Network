@@ -126,8 +126,7 @@ In the last 2 days, 100%  of visitors received 404 errors. 8.333% recieved 503 e
 In the last 7 days, China produced the majority of the traffic on the website.
 
 
-Of the traffic that's coming from that country, 
-- 12 p.m.
+Of the traffic that's coming from that country, 12pm was the most active time.
 
 A list all the types of downloaded files that have been identified for the last 7 days, along with a short description of each file type:
 
