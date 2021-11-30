@@ -4,9 +4,8 @@ The files in this repository were used to configure the network depicted below.
 
 (Project_1_Virtual_Network/Images/ELK_Diagram.png)  https://drive.google.com/file/d/1q6kl2KHmcOjOHiURIozY4N-1CBONGfP9/view?usp=sharing
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the /etc/ansible/roles/filebeat-playbook.yml file may be used to install only certain pieces of it, such as Filebeat.
 
-  - /etc/ansible/roles/filebeat-playbook.yml
 
 This document contains the following details:
 - Description of the Topology
@@ -47,7 +46,7 @@ Only the Jump Box machine can accept connections from the Internet. Access to th
 -  xx.xxx.x.xxx (my ip)
 
 Machines within the network can only be accessed by
-- Jump Box 52.175.253.103 10.0.0.4
+- Jump Box public ip: 52.175.253.103  private ip: 10.0.0.4
 
 
 A summary of the access policies in place can be found in the table below.
