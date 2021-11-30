@@ -6,7 +6,7 @@ Project_1_Virtual_Network/Images/Images/ELK_Diagram.png
 
 ![image](https://user-images.githubusercontent.com/87440158/144123768-72498cda-c693-49f9-9661-79affc3d3ea2.png)
 
-https://drive.google.com/file/d/1q6kl2KHmcOjOHiURIozY4N-1CBONGfP9/view?usp=sharing
+
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the /etc/ansible/roles/filebeat-playbook.yml file may be used to install only certain pieces of it, such as Filebeat.
 
