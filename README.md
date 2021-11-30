@@ -98,13 +98,11 @@ SSH into the control node and follow the steps below:
 - Update the config.yml file to include ELK private ip 10.1.0.4
 - Run the playbook, and navigate to 10.1.0.4 to check that the installation worked as expected.
 
-- _Which file is the playbook? Where do you copy it?_
-filebeat-playbook.yml copy it into /etc/ansible/roles
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
+be sure to copy filebeat-playbook.yml into /etc/ansible/roles
+
 The host file is to be updated to make ansible run the playbook on a specific machine. Specifiy the machines in the configuration file by their ip (10.0.0.5 10.0.0.6 10.0.0.7 for beats, 10.1.0.4 for ELK)
 
-- _Which URL do you navigate to in order to check that the ELK server is running?
-http://104.43.234.157:5601/app/kibana
+Please Navigate to http://104.43.234.157:5601/app/kibana to ensure the ELK server is running.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -142,5 +140,18 @@ zip- archive file format supporting lossless data compression.
 
 --------------------------------------------------------------------------------------------------------------------
 
+Upon inspection during maximum activity, I noticed that profiles were being downloaded that pertained to various astronauts. 
+
+The timestamp for the event was November, 23 08:01
+A rpm file was downloaded from India. A 200 http response code was given to this visitor.
+The source IP address was 61.231.10.118
+The geo coordinates were  { "lat": 39.58316583, "lon": -85.80481 }
+The source machine was using an operating system consisting of  Mozilla/5.0 (X11; Linux i686) 
+AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.50 Safari/534.24
+The url that was accessed was https://elastic-elastic-elastic.org/people/type:astronauts/name:anthony-llewellyn/profile
+The visitors traffic originated from elastic-elastic-elastic.org
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+It appears the user obtained sensitive information on a number of american astronauts. In this example of a file they downloaded, there is a document which contained the profile of Anthony LLewellyn, an astronaut. If this kind of personal information is available to potential adversaries, it would mean a complete failure in national security, and violates compliance guidelines.  
 
 
