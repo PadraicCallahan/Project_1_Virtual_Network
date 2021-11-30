@@ -167,15 +167,37 @@ What HTTP response codes were encountered by this visitor?
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-What is the source IP address of this activity?        61.231.10.118
-What are the geo coordinates of this activity?         { "lat": 39.58316583, "lon": -85.80481 }
-What OS was the source machine running?            Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.50 Safari/534.24
-What is the full URL that was accessed? 	https://elastic-elastic-elastic.org/people/type:astronauts/name:anthony-llewellyn/profile
+What is the source IP address of this activity?        
+
+61.231.10.118
+
+What are the geo coordinates of this activity?         
+
+{ "lat": 39.58316583, "lon": -85.80481 }
+
+What OS was the source machine running?            
+
+Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.50 Safari/534.24
+
+What is the full URL that was accessed? 	
+
+https://elastic-elastic-elastic.org/people/type:astronauts/name:anthony-llewellyn/profile
+
 From what website did the visitor's traffic originate?
+
 elastic-elastic-elastic.org
 
 
-What do you think the user was doing? Trying to get user information.
+What do you think the user was doing? 
+
+Trying to get user information.
+
 Was the file they downloaded malicious? If not, what is the file used for? 
-Is there anything that seems suspicious about this activity? They could be trying to get profile information of astronauts.
-Is any of the traffic you inspected potentially outside of compliance guidlines? If personal information is accessible by third parties, there would be privacy issues.
+
+Is there anything that seems suspicious about this activity? 
+
+They could be trying to get the private information of astronauts.
+
+Is any of the traffic you inspected potentially outside of compliance guidlines? 
+
+If personal information is accessible by third parties, there would be privacy issues, as well as national security issues due to the personal information of government empoyees being compromised. 
