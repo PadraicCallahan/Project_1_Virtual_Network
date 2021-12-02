@@ -110,7 +110,7 @@ SSH into the control node and follow the steps below:
 - Update the config.yml file to include ELK private ip 10.1.0.4
 - Run the playbook, and navigate to 10.1.0.4 to check that the installation worked as expected.
 
-be sure to copy filebeat-playbook.yml into /etc/ansible/roles
+#### Be sure to copy filebeat-playbook.yml into /etc/ansible/roles
 
 The host file is to be updated to make ansible run the playbook on a specific machine. Specifiy the machines in the configuration file by their ip (10.0.0.5 10.0.0.6 10.0.0.7 for beats, 10.1.0.4 for ELK)
 
